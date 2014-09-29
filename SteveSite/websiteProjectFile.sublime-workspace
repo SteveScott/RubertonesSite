@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3213,
+				"buffer_size": 3266,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,18 +51,15 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 6329,
+				"buffer_size": 6388,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "$(document).ready(function(){\n\n}",
 			"file": "js/main.js",
-			"file_size": 64,
-			"file_write_time": 130564773124282011,
 			"settings":
 			{
-				"buffer_size": 32,
+				"buffer_size": 212,
 				"line_ending": "Unix"
 			}
 		}
@@ -122,7 +119,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -139,15 +136,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3213,
+						"buffer_size": 3266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2301,
-								2301
+								1734,
+								1734
 							]
 						],
 						"settings":
@@ -162,7 +159,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 185.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -172,15 +169,15 @@
 					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 6329,
+						"buffer_size": 6388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2220,
-								2220
+								1680,
+								1680
 							]
 						],
 						"settings":
@@ -190,7 +187,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1365.0,
+						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -200,15 +197,15 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 32,
+						"buffer_size": 212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								212,
+								212
 							]
 						],
 						"settings":
@@ -226,7 +223,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
