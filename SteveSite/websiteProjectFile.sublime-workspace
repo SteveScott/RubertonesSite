@@ -43,8 +43,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3266,
-				"line_ending": "Unix"
+				"buffer_size": 3373,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -136,15 +136,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3266,
+						"buffer_size": 3373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1734,
-								1734
+								0,
+								0
 							]
 						],
 						"settings":

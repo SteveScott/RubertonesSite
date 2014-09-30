@@ -26,7 +26,7 @@
         <!-- Add your site or application content here -->
 
         <!-- Heading and toolbar to be show on all pages -->
-        <span class="headline">
+        <span class="Headline">
             <h1>Rubertone's CAD and Casting</h1>
             <h2>Custom Design | Full Service Jewelry Manufacturing</h2>
             <hr style="height:1px;"></hr>
@@ -36,36 +36,60 @@
         <nav id="RubertonesNav">
        <table id="NavTable">
         <tr>
-            <td><div id="CADdiv" class="NavOptions"><h2>CAD Modeling and Design</h2></div></td>
-            <td><div id="3dPrint_div" class="NavOptions"><h2>3D Printing</h2></div></td>
-            <td><div id="Casting_div" class="NavOptions"><h2>Casting</h2></div></td>
-            <td><div id="Repairs_div" class="NavOptions"><h2>Repairs</h2></div></td>
-            <td><div id="Finishing_div" class="NavOptions"><h2>Finishing and Setting</h2></div></td>
+            <td><div id="CADdiv" class="NavOptions"><a href="CAD.html"><h2>CAD Modeling and Design</h2></a></div></td>
+            <td><div id="3dPrint_div" class="NavOptions"><a href="3dPrinting.html"><h2>3D Printing</h2></a></div></td>
+            <td><div id="Casting_div" class="NavOptions"><a href="casting.html"><h2>Casting</h2></a></div></td>
+            <td><div id="Repairs_div" class="NavOptions"><a href="repairs.html"><h2>Repairs</h2></a></div></td>
+            <td><div id="Finishing_div" class="NavOptions"><a href="finishSet.html"><h2>Finishing and Setting</h2></a></div></td>
         </tr>
-        <tr>
-            <td></td>
-            <td><div id="Gallery_div" class="NavOptions"><h2>Gallery</h2></div></td>
-            <td><div id="About_div" class="NavOptions"><h2>About Us</h2></div></td>
-            <td><div id="Contact_div" class="NavOptions"><h2>Contact</h2></td>
-
-        </tr>
+       
        </table>
        </nav>
-       <!--scripts-->
-        <!--> <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+      
+        <div class = "jcarousel">
+            <ul>
+                <li><img src="img/pop_04.gif">
+                <li><img src="img/pop_05.gif">
+                <li><img src="img/pop_06.gif">
+                <li><img src="img/pop_07.gif">    
+                
+            </ul>
+        </div>
+
+        <div id='carouselNavButtons'>
+            <a class="jcarousel-prev" href="#">Prev</a>
+            <a class="jcarousel-next" href="#">Next</a>
+        </div>
+        
+    </body>
+    <footer>
+        <span id="FooterNav">
+            <table>
+                <tr>
+                    <td><div id="Gallery_div" class="NavOptions"><a href="gallery.html"><h2>Gallery</h2></a></div></td>
+                    <td><div id="About_div" class="NavOptions"><a href="about.html"><h2>About Us</h2></a></div></td>
+                    <td><div id="Contact_div" class="NavOptions"><a href="contact.html"><h2>Contact</h2></a></td>
+                </tr>
+            </table>
+        </span>
+    </footer>
+     <!--scripts-->
+       
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/jcarousel.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
        <!--> <script>
+       /*
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+        */
         </script>
         <!-->
-    </body>
 </html>
