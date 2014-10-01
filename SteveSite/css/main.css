@@ -177,7 +177,7 @@ text-align: center;
 /*==============================
 My Columns
 ================================*/
-.Column1of3, .Column2of3, .Column3of3 {
+#Column1of3, #Column2of3, #Column3of3 {
     width: 30%;
     float:left;
     margin:10px;
