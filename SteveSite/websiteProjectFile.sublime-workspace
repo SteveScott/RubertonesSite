@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding"
+			],
+			[
+				"image",
+				"imageColumn"
+			],
+			[
+				"imag",
+				"imageColumn"
+			],
+			[
+				"Col",
+				"Column3of3"
+			],
+			[
+				"Colum",
+				"Column2of3"
+			],
+			[
 				"bac",
 				"background-color"
 			],
@@ -43,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3373,
+				"buffer_size": 5226,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,16 +71,24 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 6388,
-				"line_ending": "Unix"
+				"buffer_size": 8266,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 212,
+				"buffer_size": 3084,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Magics/Desktop/steve/WmStephenScott.com/js/script.js",
+			"settings":
+			{
+				"buffer_size": 6051,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -88,6 +116,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Magics/Desktop/Rubertones_Site/RubertonesSite/SteveSite/js/displayParagraph.js",
+		"/C/Users/Magics/Desktop/steve/WmStephenScott.com/js/script.js",
 		"/C/Users/Magics/Desktop/Rubertones_Site/RubertonesSite/SteveSite/index.html",
 		"/C/Users/Magics/Desktop/steve/d3Test/index.html",
 		"/C/Users/Magics/Desktop/steve/d3Test/drawDivsTest.html",
@@ -97,7 +127,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -111,6 +141,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body",
+			"center"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -128,7 +160,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -136,15 +168,19 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3373,
+						"buffer_size": 5226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1036,
+								1036
+							],
+							[
+								1934,
+								1934
 							]
 						],
 						"settings":
@@ -159,7 +195,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -169,15 +205,15 @@
 					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 6388,
+						"buffer_size": 8266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1680,
-								1680
+								2558,
+								2558
 							]
 						],
 						"settings":
@@ -187,7 +223,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1170.0,
+						"translation.y": 1599.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -197,15 +233,42 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 212,
+						"buffer_size": 3084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Magics/Desktop/steve/WmStephenScott.com/js/script.js",
+					"settings":
+					{
+						"buffer_size": 6051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1719,
+								1719
 							]
 						],
 						"settings":
@@ -213,7 +276,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
