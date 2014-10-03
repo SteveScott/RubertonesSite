@@ -116,6 +116,11 @@ h2{
     margin-bottom:4px;
 }
 
+h3{
+    font-size:18px;
+    font-family: 'EB Garamond', serif;
+}
+
 
 tr {
 
@@ -157,9 +162,11 @@ nav
     text-align:center;
     position:relative;
     bottom:10px;
-   
     clear:both;
+}
 
+#Contact{
+    text-align:center;
 }
 
 #backgroundLines {

@@ -32,20 +32,31 @@ $('.NavOptions').hover(function(){
 	}, function() {
 		$(this).css("background-color", "white");
 	});
+$(Process).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_03.gif' style='width:100%;opacity:1.0;'>";
 
+	textColumn.innerHTML = "<p>Stop by, email, or call with your ideas, and one the owners will guide you through the process.</p><p>After receiving instructions and reference materials, our designers will then create a CAD model.  We will send you photorealistic renderings of the piece for you for feedback and review, and your CAD designer will make adjustments if necessary.</p><p>Once approved, we will create a wax model and cast in any metal of your choosing.</p><p>After the piece has been cast, our jewelers will polish, set, and hand-engrave the piece as desired.</p>";
+		
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
 
-
-var castingText = "here is some information about casting.";
-var cadText = "<p> Here is more information about CAD</p>";
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+	}
+	);
 
 $(CADdiv).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_04.gif' style='width:304px;height:228px;opacity:1.0;'>";
+	var image = "<img src='img/pop_04.gif' style='width:100%;opacity:1.0;'>";
 
-	textColumn.innerHTML = "<p>This is new text added by Javascript about CAD.</p>";
-	
-	
+	textColumn.innerHTML = "<p> Our talented CAD designers can replicate any sketch, image, or idea.  We will work with you through the design process and create a perfect model to fit your customer's needs.</p><p>We pride ourselves in keeping up with the latest technological advances.  We use Rhino with Matrix, the highest standard in jewelry modeling software.  For more organic shapes we have ZBrush, a digital sculpting program used by the film industry to create high-resolution sculpted meshes.  If you can imagine it, we can realize it.</p><p>We also accept .STL and .3dm files for model building on any of our rapid prototyping machines.</p><h3>Software</h3><ul><li>Rhinoceros 5</li><li>Matrix 7.5</li><li>ZBrush 4r6</li><li>Magics 16.2</li></ul>";
+		
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').fadeOut(0).fadeIn(1000);
 
@@ -60,8 +71,8 @@ $(CADdiv).hover(function(){
 $(threeDPrint_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_05.gif' style='width:304px;height:228px;opacity:1.0;'>";
-	textColumn.innerHTML = "<p>This is new text added about 3d printing.</p>";
+	var image = "<img src='img/pop_05.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<p>We use the latest in 3d printing technology from Solidscape, Projet, and EnvisionTEC 3d printers, as well as the Revo and Roland mills.</p><p> Each machine has its strengths and limitations, so we select the best machine based on level of detail, fragility of the part, complexity of the geometry, and size of the part.  We are capable of creating any jewelry, down to 25 micron resolution for the finest detail, to the largest pendants.</p><h3>Rapid Prototype Machinery</h3><ul><li>Solidscape 3Z Max</li><li>Projet CPX 3000</li><li>EnvisionTEC Perfactory Apollo</li><li>Revo C</li></ul>";
 
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').fadeOut(0).fadeIn(1000);
@@ -72,7 +83,90 @@ $(threeDPrint_div).hover(function(){
 		$('div#Column3of3').fadeOut(0);
 		});
 
+$(Casting_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_06.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<p>24-hour turnaround on casting</p><h3>Alloys Available:</h3><ul><li>Platinum</li><li>Palladium</li><li>White Gold: 10, 14, or 18k</li><li>Yellow Gold: 10, 14, or 18k</li><li>Sterling silver (de-ox)</li><li>Bronze</li><li>Brass</li></ul><h3>Molds Available:</h3><ul><li>Rubber</li><li>Silicon</li><li>Metal (for larger Quantities)</li>";
 
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
+
+$(Repairs_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<p>Our talented jewelers can restore and bring back to life your favorite jewelry.</p><h3>Repairs avaliable</h3><ul><li>Clean and inspect</li><li>Ring resize</li><li>Clasp replace</li><li>Chain solder</li></ul>";
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
+
+$(Finishing_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<p>Our talented jewelers will complete the custom process by setting and finishing your jewelry pieces as needed.</p><h3>Finishes Available:</h3><ul>	<li>High Polish</li><li>Satin</li><li>Sandblast</li><li>Stone</li><li>Brush</li><li>Stipple or Hammer</li><li>Florentine</li><li>Antique</li><li>Milgrain</li></ul><h3>We also offer custom hand engraving</h3>";
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
+
+$(About_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<p>Rubertone's is a full-service jewelry design and manufacturing company located in the heart of Philadelphia's historic Jeweler's Row.  At Rubertone's, we aer committed to exceptional customer service and we promise to exceed your expectations.  It is our goal to provie you and your customers with the best in quality at a reasonable price and fast turnaround time.</p>";
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
+
+$(Contact_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<ul><li><h3>Rubertone's CAD and Casting</h3></li><li>730 Sansom Street</li>	<li>Philadelphia, PA 19106</li></ul><ul>	<li>Telelphone: 215.923.5948</li><li>Fax: 		215.923.3667</li><li>Email:      CAD@rubertones.com</li></ul><ul>	<li><h3>Business Hours:</h3></li>	<li>Monday - Friday</li><li>9AM - 6PM</li></ul>";
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
+
+$(Gallery_div).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	textColumn.innerHTML = "<h3>Click to see examples of our work</h3>"
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').fadeOut(0).fadeIn(1000);
+	
+	},
+	function(){
+		textColumn.innerHTML = originalText;
+		$('div#Column3of3').fadeOut(0);
+		});
                         "CADdiv"// class="NavOptions"><a href="CAD.html"><h2>CAD Modeling and Design</h2></a></div></tr>
                         "3dPrint_div"// class="NavOptions"><a href="3dPrinting.html"><h2>3D Printing</h2></a></div></tr>
                         "Casting_div" //class="NavOptions"><a href="casting.html"><h2>Casting</h2></a></div></tr>
