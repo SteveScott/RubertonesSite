@@ -2,29 +2,14 @@
 
 
 $(document).ready(function(){
-	$('.jcarousel').jcarousel({
-		center: false,
-		animation: 'fast',
-		wrap: 'circular',	
-	});
-
-$('.jcarousel-prev').click(function() {
-    $('.jcarousel').jcarousel('scroll', '-=1');
-	});
-
-$('.jcarousel-next').click(function() {
-    $('.jcarousel').jcarousel('scroll', '+=1');
-	});
-
-
+	console.log("ready!");
+	$("#Headline").fadeOut(0).fadeIn(5000);
 });
 
 
 
 $(function(){
-	var originalText = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur erat lacus, vehicula ac velit a, finibus euismod tellus. Pellentesque pulvinar risus quis consectetur sagittis. Sed pharetra efficitur lobortis. Aliquam erat volutpat. Vivamus blandit libero vel sodales eleifend. Vestibulum eget purus id libero malesuada vulputate posuere ut augue. Aenean fringilla ex sed pharetra blandit. Phasellus vitae erat quis lorem elementum congue vel in turpis. Sed sollicitudin enim a vulputate sodales. Vestibulum sit amet aliquam eros.</p>';
-
-
+	
 
 $('.NavOptions').hover(function(){
 	$(this).css("background-color", "#E0E0E0")
@@ -136,7 +121,7 @@ $(Contact_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
-	textColumn.innerHTML = "<ul><li><h3>Rubertone's CAD and Casting</h3></li><li>730 Sansom Street</li>	<li>Philadelphia, PA 19106</li></ul><ul>	<li>Telelphone: 215.923.5948</li><li>Fax: 		215.923.3667</li><li>Email:      CAD@rubertones.com</li></ul><ul>	<li><h3>Business Hours:</h3></li>	<li>Monday - Friday</li><li>9AM - 6PM</li></ul>";
+	textColumn.innerHTML = "<ul><h3>Rubertone's CAD and Casting</h3><li>730 Sansom Street</li><li>Philadelphia, PA 19106</li></ul><ul><li>Telelphone: 215.923.5948</li><li>Fax: 		215.923.3667</li><li>Email:      CAD@rubertones.com</li></ul><ul><h3>Business Hours:</h3><li>Monday - Friday</li><li>9AM - 6PM</li></ul>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
 	

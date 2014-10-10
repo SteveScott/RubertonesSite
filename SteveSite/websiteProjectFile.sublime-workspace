@@ -63,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4801,
+				"buffer_size": 4858,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 9250,
+				"buffer_size": 8760,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,21 +92,34 @@
 			}
 		},
 		{
+			"file": "/C/Users/Magics/Desktop/grid-slider.html",
+			"settings":
+			{
+				"buffer_size": 8433,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "gallery.html",
 			"settings":
 			{
-				"buffer_size": 20530,
+				"buffer_size": 19978,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "These are the photos we will need.\n\n\n\nThese are CAD images we will need.",
-			"file": "doc/listOfPhotos",
-			"file_size": 72,
-			"file_write_time": 130568312702592696,
+			"file": "/C/Users/Magics/Desktop/grid-slider.source.html",
 			"settings":
 			{
-				"buffer_size": 72,
+				"buffer_size": 18874,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "doc/listOfPhotos",
+			"settings":
+			{
+				"buffer_size": 291,
 				"line_ending": "Windows"
 			}
 		},
@@ -170,6 +183,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
 			">\";",
 			"height:228px;",
 			"304px",
@@ -196,7 +210,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -204,15 +218,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4801,
+						"buffer_size": 4858,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1283,
-								1283
+								1668,
+								1748
 							]
 						],
 						"settings":
@@ -226,8 +240,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 79.0,
-						"translation.y": 765.0,
+						"translation.x": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -265,15 +279,15 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 9250,
+						"buffer_size": 8760,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8385,
-								8385
+								7885,
+								7885
 							]
 						],
 						"settings":
@@ -282,7 +296,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2250.0,
+						"translation.y": 1890.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -299,8 +313,8 @@
 						"selection":
 						[
 							[
-								16747,
-								16747
+								410,
+								410
 							]
 						],
 						"settings":
@@ -310,25 +324,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4922.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "gallery.html",
+					"file": "/C/Users/Magics/Desktop/grid-slider.html",
 					"settings":
 					{
-						"buffer_size": 20530,
+						"buffer_size": 8433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2136,
-								2136
+								391,
+								8433
 							]
 						],
 						"settings":
@@ -338,25 +352,81 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 1983.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "doc/listOfPhotos",
+					"file": "gallery.html",
 					"settings":
 					{
-						"buffer_size": 72,
+						"buffer_size": 19978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								12937,
+								12937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3256.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Magics/Desktop/grid-slider.source.html",
+					"settings":
+					{
+						"buffer_size": 18874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								18874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "doc/listOfPhotos",
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
 							]
 						],
 						"settings":
@@ -370,7 +440,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "doc/deadHTML.html",
 					"settings":
 					{
