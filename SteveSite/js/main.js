@@ -19,9 +19,9 @@ $('.NavOptions').hover(function(){
 $(Process).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_03.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/rubertonesCounter.jpg' style='width:100%;opacity:1.0;'>";
 
-	textColumn.innerHTML = "<p>Stop by, email, or call with your ideas, and one the owners will guide you through the process.</p><p>After receiving instructions and reference materials, our designers will then create a CAD model.  We will send you photorealistic renderings of the piece for you for feedback and review, and your CAD designer will make adjustments if necessary.</p><p>Once approved, we will create a wax model and cast in any metal of your choosing.</p><p>After the piece has been cast, our jewelers will polish, set, and hand-engrave the piece as desired.</p>";
+	textColumn.innerHTML = "<p>Stop by, email, or call with your ideas, and one the owners will guide you through the process.</p><p>After receiving instructions and reference materials, our designers will then create a CAD model.  We will send you photorealistic renderings of the piece for you for feedback and review, and the CAD designer will make adjustments if necessary.</p><p>Once approved, we will create a wax model and cast in any metal of your choosing.</p><p>After the piece has been cast, our jewelers will polish, set, and hand-engrave the piece as desired.</p>";
 		
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -53,7 +53,7 @@ $(CADdiv).hover(function(){
 $(threeDPrint_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_05.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/EnvisionTEC.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<p>We use the latest in 3d printing technology from Solidscape, Projet, and EnvisionTEC 3d printers, as well as the Revo and Roland mills.</p><p> Each machine has its strengths and limitations, so we select the best machine based on level of detail, fragility of the part, complexity of the geometry, and size of the part.  We are capable of creating any jewelry, down to 25 micron resolution for the finest detail, to the largest pendants.</p><h3>Rapid Prototype Machinery</h3><ul><li>Solidscape 3Z Max</li><li>Projet CPX 3000</li><li>EnvisionTEC Perfactory Apollo</li><li>Revo C</li></ul>";
 
 	imageColumn.innerHTML = image;
@@ -67,7 +67,7 @@ $(threeDPrint_div).hover(function(){
 $(Casting_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_06.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/casting720.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<p>24-hour turnaround on casting</p><h3>Alloys Available:</h3><ul><li>Platinum</li><li>Palladium</li><li>White Gold: 10, 14, or 18k</li><li>Yellow Gold: 10, 14, or 18k</li><li>Sterling silver (de-ox)</li><li>Bronze</li><li>Brass</li></ul><h3>Molds Available:</h3><ul><li>Rubber</li><li>Silicon</li><li>Metal (for larger Quantities)</li>";
 
 	imageColumn.innerHTML = image;
@@ -81,7 +81,7 @@ $(Casting_div).hover(function(){
 $(Repairs_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/jewelryRepair.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<p>Our talented jewelers can restore and bring back to life your favorite jewelry.</p><h3>Repairs avaliable</h3><ul><li>Clean and inspect</li><li>Ring resize</li><li>Clasp replace</li><li>Chain solder</li></ul>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -94,7 +94,7 @@ $(Repairs_div).hover(function(){
 $(Finishing_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/grinder.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<p>Our talented jewelers will complete the custom process by setting and finishing your jewelry pieces as needed.</p><h3>Finishes Available:</h3><ul>	<li>High Polish</li><li>Satin</li><li>Sandblast</li><li>Stone</li><li>Brush</li><li>Stipple or Hammer</li><li>Florentine</li><li>Antique</li><li>Milgrain</li></ul><h3>We also offer custom hand engraving</h3>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -107,7 +107,7 @@ $(Finishing_div).hover(function(){
 $(About_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/philadelphiaSkyline.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<p>Rubertone's is a full-service jewelry design and manufacturing company located in the heart of Philadelphia's historic Jeweler's Row.  At Rubertone's, we aer committed to exceptional customer service and we promise to exceed your expectations.  It is our goal to provie you and your customers with the best in quality at a reasonable price and fast turnaround time.</p>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -120,7 +120,7 @@ $(About_div).hover(function(){
 $(Contact_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/rubertonesFront.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<ul><h3>Rubertone's CAD and Casting</h3><li>730 Sansom Street</li><li>Philadelphia, PA 19106</li></ul><ul><li>Telelphone: 215.923.5948</li><li>Fax: 		215.923.3667</li><li>Email:      CAD@rubertones.com</li></ul><ul><h3>Business Hours:</h3><li>Monday - Friday</li><li>9AM - 6PM</li></ul>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -133,7 +133,7 @@ $(Contact_div).hover(function(){
 $(Gallery_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/pop_07.gif' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/jewelryRenders/CA0239/1.jpg' style='width:100%;opacity:1.0;'>";
 	textColumn.innerHTML = "<h3>Click to see examples of our work</h3>"
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
