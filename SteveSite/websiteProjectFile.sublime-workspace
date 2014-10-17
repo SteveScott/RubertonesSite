@@ -83,16 +83,8 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 8010,
+				"buffer_size": 8023,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Magics/Desktop/image-gallery.source.html",
-			"settings":
-			{
-				"buffer_size": 17266,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -100,14 +92,6 @@
 			"settings":
 			{
 				"buffer_size": 23260,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Magics/Desktop/grid-slider.source.html",
-			"settings":
-			{
-				"buffer_size": 18874,
 				"line_ending": "Windows"
 			}
 		},
@@ -152,6 +136,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Magics/Desktop/image-gallery.source.html",
+		"/C/Users/Magics/Desktop/grid-slider.source.html",
 		"/C/Users/Magics/Desktop/grid-slider.html",
 		"/C/Users/Magics/Desktop/Rubertones_Site/RubertonesSite/jssor/demos-jquery/grid-slider.source.html",
 		"/C/Users/Magics/Desktop/steve/WmStephenScott.com/js/script.js",
@@ -240,7 +226,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -268,7 +254,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2554.0,
+						"translation.y": 2824.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -278,15 +264,15 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 8010,
+						"buffer_size": 8023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3446,
-								3446
+								5538,
+								5538
 							]
 						],
 						"settings":
@@ -294,42 +280,14 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Magics/Desktop/image-gallery.source.html",
-					"settings":
-					{
-						"buffer_size": 17266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								410,
-								410
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
+						"translation.x": 491.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "gallery.html",
 					"settings":
 					{
@@ -352,41 +310,13 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4275.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/Users/Magics/Desktop/grid-slider.source.html",
-					"settings":
-					{
-						"buffer_size": 18874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								18874
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "doc/listOfPhotos",
 					"settings":
 					{
@@ -413,7 +343,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "doc/deadHTML.html",
 					"settings":
 					{

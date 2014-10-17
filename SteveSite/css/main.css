@@ -121,6 +121,10 @@ h3{
     font-family: 'EB Garamond', serif;
 }
 
+p{
+    margin-top:7px;
+    margin-bottom:10px;
+}
 
 tr {
 
@@ -212,6 +216,10 @@ My Columns
     float:left;
     margin:10px;
 
+}
+
+#Column2of3 {
+    margin-top: 0px;
 }
 .AllColumns{
     height=600px;
