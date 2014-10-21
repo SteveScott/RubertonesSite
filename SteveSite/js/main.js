@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 	console.log("ready!");
-	$("#Headline").fadeOut(0).fadeIn(5000);
+	$("#Headline").fadeOut(0).fadeIn(0);
 });
 
 
@@ -20,7 +20,7 @@ $('.NavOptions').hover(function(){
 $(Collections).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
-	var image = "<img src='img/rubertonesCounter.jpg' style='width:100%;opacity:1.0;'>";
+	var image = "<img src='img/collections/WeddingBands/0001.jpg' style='width:100%;opacity:1.0;'>";
 
 	textColumn.innerHTML = "<p>Click to veiw our original collections of rings, pendants, earrings, and other findings.  Many of these items are pre-molded, ready for 24-hour turnaround.</p>";
 		
@@ -42,7 +42,7 @@ $(Process).hover(function(){
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/rubertonesCounter.jpg' style='width:100%;opacity:1.0;'>";
 
-	textColumn.innerHTML = "<p>Stop by, email, or call with your ideas, and one the owners will guide you through the process.</p><p>After receiving instructions and reference materials, our designers will then create a CAD model.  We will send you photorealistic renderings of the piece for you for feedback and review, and the CAD designer will make adjustments if necessary.</p><p>Once approved, we will create a wax model and cast in any metal of your choosing.</p><p>After the piece has been cast, our jewelers will polish, set, and hand-engrave the piece as desired.</p>";
+	textColumn.innerHTML = "<p>Stop by, email, or call with your ideas, and one the designers will guide you through the process.</p><p>After receiving instructions and reference materials, our designers will then create a CAD model.  We will send you photorealistic renderings of the piece for you for feedback and review, and the CAD designer will make adjustments if necessary.</p><p>Once approved, we will create a wax model and cast in any metal of your choosing.</p><p>After the piece has been cast, our jewelers will polish, set, and hand-engrave the piece as desired.</p>";
 		
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -59,7 +59,7 @@ $(About_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/philadelphiaSkyline.jpg' style='width:100%;opacity:1.0;'>";
-	textColumn.innerHTML = "<p>Rubertone's is a full-service jewelry design and manufacturing company located in the heart of Philadelphia's historic Jeweler's Row.  At Rubertone's, we are committed to exceptional customer service and we promise to exceed your expectations.  It is our goal to provie you and your customers with the best in quality at a reasonable price and fast turnaround time.</p>";
+	textColumn.innerHTML = "<p>Rubertone's is a full-service jewelry design and manufacturing company located in the heart of Philadelphia's historic Jeweler's Row.  At Rubertone's, we are committed to exceptional customer service and we promise to exceed your expectations.  It is our goal to provide you and your customers with the best in quality at a reasonable price and fast turnaround time.</p>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
 	

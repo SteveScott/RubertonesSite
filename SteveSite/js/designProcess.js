@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 	console.log("ready!");
-	$("#Headline").fadeOut(0).fadeIn(5000);
+	$("#Headline").fadeOut(0).fadeIn(0);
 });
 
 
@@ -52,7 +52,7 @@ $(Casting_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/casting720.jpg' style='width:100%;opacity:1.0;'>";
-	textColumn.innerHTML = "<p>24-hour turnaround on casting</p><h3>Alloys Available:</h3><ul><li>Platinum</li><li>Palladium</li><li>White Gold: 10, 14, or 18k</li><li>Yellow Gold: 10, 14, or 18k</li><li>Sterling silver (de-ox)</li><li>Bronze</li><li>Brass</li></ul><h3>Molds Available:</h3><ul><li>Rubber</li><li>Silicon</li><li>Metal (for larger Quantities)</li>";
+	textColumn.innerHTML = "<p>24-hour turnaround on casting</p><h3>Available Metal Types:</h3><ul><li>Platinum</li><li>Palladium</li><li>White Gold: 10, 14, or 18k</li><li>Yellow Gold: 10, 14, or 18k</li><li>Sterling silver (de-ox)</li><li>Bronze</li><li>Brass</li></ul><h3>Molds Available:</h3><ul><li>Rubber</li><li>Silicon</li><li>Metal (for larger Quantities)</li>";
 
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
@@ -66,7 +66,7 @@ $(Repairs_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/jewelryRepair.jpg' style='width:100%;opacity:1.0;'>";
-	textColumn.innerHTML = "<p>Our talented jewelers can restore and bring back to life your favorite jewelry.</p><h3>Repairs avaliable</h3><ul><li>Clean and inspect</li><li>Ring resize</li><li>Clasp replace</li><li>Chain solder</li></ul>";
+	textColumn.innerHTML = "<p>Our talented jewelers can restore and bring back to life your favorite jewelry.  We offer complete repairs, including advanced laser soldering services.</p>";
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
 	
