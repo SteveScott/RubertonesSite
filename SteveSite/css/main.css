@@ -171,6 +171,9 @@ nav
 
 #Contact{
     text-align:center;
+    position:relative;
+    bottom:10px;
+    clear:both;
 }
 
 #backgroundLines {
@@ -216,6 +219,12 @@ My Columns
     float:left;
     margin:10px;
 
+}
+
+#column2and3Combined {
+    width:60%;
+    float:left;
+    margin:10px;
 }
 
 #Column2of3 {

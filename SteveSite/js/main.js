@@ -16,6 +16,27 @@ $('.NavOptions').hover(function(){
 	}, function() {
 		$(this).css("background-color", "white");
 	});
+
+$(Collections).hover(function(){
+	var textColumn = document.getElementById('testText');
+	var imageColumn = document.getElementById('Column3of3');
+	var image = "<img src='img/rubertonesCounter.jpg' style='width:100%;opacity:1.0;'>";
+
+	textColumn.innerHTML = "<p>Click to veiw our original collections of rings, pendants, earrings, and other findings.  Many of these items are pre-molded, ready for 24-hour turnaround.</p>";
+		
+	imageColumn.innerHTML = image;
+	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
+
+	
+	},
+	function(){
+	
+	}
+	);
+
+
+
+
 $(Process).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
@@ -64,7 +85,7 @@ $(Gallery_div).hover(function(){
 	var textColumn = document.getElementById('testText');
 	var imageColumn = document.getElementById('Column3of3');
 	var image = "<img src='img/jewelryRenders/CA0239/1.jpg' style='width:100%;opacity:1.0;'>";
-	textColumn.innerHTML = "<h3>Click to see examples of our work</h3>"
+	textColumn.innerHTML = "<p>Click to see examples of our work</p>"
 	imageColumn.innerHTML = image;
 	$('div#Column3of3').stop(true, true).fadeOut(0).fadeIn(1000);
 	
